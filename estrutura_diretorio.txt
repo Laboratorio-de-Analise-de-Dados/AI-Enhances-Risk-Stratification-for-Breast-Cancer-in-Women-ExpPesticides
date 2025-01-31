@@ -1,0 +1,121 @@
+.
+├── LICENSE
+├── README.md
+├── VERSION
+├── atualiza_docker.sh
+├── commit_git.sh
+├── config.sh
+├── docker
+│   ├── JupyterLab-configs
+│   │   ├── plugin.jupyterlab-settings
+│   │   ├── themes.jupyterlab-settings
+│   │   └── tracker.jupyterlab-settings
+│   ├── docker-compose-app.yml
+│   ├── python.Dockerfile
+│   └── python_req.txt
+├── estrutura_diretorio.txt
+└── script
+    ├── Analise_exploratoria
+    │   ├── AExpl_HER2.ipynb
+    │   ├── AExpl_LuminalA.ipynb
+    │   ├── AExpl_LuminalB.ipynb
+    │   └── AExpl_TN.ipynb
+    ├── Analise_exploratoria.ipynb
+    ├── Análise por subtipo
+    │   ├── AExpl_LuminalA.ipynb
+    │   └── Untitled.ipynb
+    ├── ArvoreDecisao.ipynb
+    ├── Classe_estratifica
+    │   ├── main.py
+    │   ├── resultados.xlsx
+    │   ├── src
+    │   │   ├── EstratificaRisco.py
+    │   │   ├── EstratificaRiscoRefact.py
+    │   │   └── __pycache__
+    │   │       ├── EstratificaRisco.cpython-37.pyc
+    │   │       └── EstratificaRiscoRefact.cpython-37.pyc
+    │   └── untitled.py
+    ├── Classes_algoritmos
+    │   ├── arvore_decisao.py
+    │   └── src
+    │       ├── ArvoresDecisao.py
+    │       ├── acuracia.gz
+    │       ├── modelo.gz
+    │       └── previsoes.gz
+    ├── Dados
+    │   ├── Planilha Atualizada 07.02.2023.xlsx
+    │   ├── Planilha Atualizada 07.02.2023copia.xlsx
+    │   ├── Planilha Atualizada 16.03.2023.xlsx
+    │   ├── Planilha Atualizada 16.03.2023copia.xlsx
+    │   ├── Planilha Atualizada 20.04.2023 cópia.xlsx
+    │   ├── Planilha Atualizada 21.05.202.xlsx
+    │   ├── Planilha Atualizada 21.05.2022.xlsx
+    │   ├── dados_cancerpositivo.xlsx
+    │   ├── dados_completos_cancerpositivo.xlsx
+    │   ├── dados_estruturados.xlsx
+    │   ├── dados_pacientes_prognostico.xlsx
+    │   ├── dados_powerbi_cancerpositivo.xlsx
+    │   ├── machineLearning
+    │   │   ├── data
+    │   │   │   ├── Final_datasheet_Jan_25_2022.xlsx
+    │   │   │   ├── Final_datasheet_Jan_25_2022_EXTRUTURADO
+    │   │   │   └── Final_datasheet_Jan_25_2022_EXTRUTURADO.csv
+    │   │   └── extruturacaoDados.ipynb
+    │   └── pacientes controle.xlsx
+    ├── Estruturação.ipynb
+    ├── Incidencia.ipynb
+    ├── Luminal_A
+    │   ├── AExpl_controle.ipynb
+    │   ├── AExpl_selecionadas.ipynb
+    │   ├── Demais subtipos
+    │   │   ├── AExpl_controle_demais.ipynb
+    │   │   ├── AExpl_demais.ipynb
+    │   │   ├── Demais subtivos negativos.xlsx
+    │   │   ├── Luminal B
+    │   │   │   └── AExpl_luminal_B.ipynb
+    │   │   ├── Luminal B.xlsx
+    │   │   ├── Selecionadas dos demais subtipos.xlsx
+    │   │   └── Seleção demais subtipos.xlsx
+    │   ├── Pacientes_controle_luminalA.xlsx
+    │   └── Seleção de pacientes com prognóstico diferente do esperado - Luminal A.xlsx
+    ├── Metricas.ipynb
+    ├── Metricas_salva.ipynb
+    ├── Qquadrado.ipynb
+    ├── Testes
+    │   ├── Aplicação.ipynb
+    │   ├── Teste_SVM.ipynb
+    │   ├── Teste_classe
+    │   │   ├── Cliente.py
+    │   │   ├── main.py
+    │   │   └── src
+    │   │       ├── TesteCliente.py
+    │   │       └── teste.py
+    │   └── Teste_metricas
+    │       └── Confussion_Matrix_2023-02-07.ipynb
+    ├── algoritmo_proprio
+    │   ├── Aplicação_algoritmo.ipynb
+    │   ├── Classe_estratifica
+    │   │   └── aplicacao.py
+    │   ├── Classes.ipynb
+    │   ├── Funções_Estratificação_2021-01-12.ipynb
+    │   ├── MySQL_edit-Copy1.ipynb
+    │   ├── README.md
+    │   ├── data
+    │   │   └── ODIM-2.csv
+    │   └── ref
+    │       └── Algoritmo Extratificação.docx
+    ├── convert_dados
+    │   ├── convert_data.ipynb
+    │   └── data
+    │       ├── NAO_IDENT_null_1988-2019_1988_2004_94143
+    │       ├── NAO_IDENT_null_1988-2019_2005_2011_94143
+    │       └── NAO_IDENT_null_1988-2019_2012_2019_94143
+    ├── gera_tabela_aleatórica_2023-02-15.ipynb
+    ├── melhor_modelo.joblib
+    ├── melhor_modelo_agrot.joblib
+    ├── melhor_modelo_exp.joblib
+    ├── melhor_modelo_nao_exp.joblib
+    ├── pacientes_ausen_tumor_residual.xlsx
+    └── teste.xlsx
+
+26 directories, 92 files
